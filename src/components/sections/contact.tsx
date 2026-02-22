@@ -14,15 +14,43 @@ export function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate API call
-    setTimeout(() => {
+    
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      firstName: formData.get("firstName"),
+      lastName: formData.get("lastName"),
+      email: formData.get("email"),
+      company: formData.get("company"),
+      message: formData.get("message"),
+    };
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        const form = e.target as HTMLFormElement;
+        form.reset();
+        setTimeout(() => setIsSubmitted(false), 5000);
+      } else {
+        console.error("Failed to send email");
+        alert("Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      alert("Something went wrong. Please try again later.");
+    } finally {
       setIsSubmitting(false);
-      setIsSubmitted(true);
-      setTimeout(() => setIsSubmitted(false), 3000);
-    }, 1500);
+    }
   };
 
   return (
@@ -86,24 +114,24 @@ export function ContactSection() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <Label htmlFor="firstName" className="text-muted-foreground">{t("form.firstName")}</Label>
-                  <Input id="firstName" placeholder={t("form.placeholder.firstName")} required className="bg-background/50 border-border/50 focus-visible:ring-accent h-12" />
+                  <Input id="firstName" name="firstName" placeholder={t("form.placeholder.firstName")} required className="bg-background/50 border-border/50 focus-visible:ring-accent h-12" />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="lastName" className="text-muted-foreground">{t("form.lastName")}</Label>
-                  <Input id="lastName" placeholder={t("form.placeholder.lastName")} required className="bg-background/50 border-border/50 focus-visible:ring-accent h-12" />
+                  <Input id="lastName" name="lastName" placeholder={t("form.placeholder.lastName")} required className="bg-background/50 border-border/50 focus-visible:ring-accent h-12" />
                 </div>
               </div>
 
               <div className="space-y-2">
                 <Label htmlFor="email" className="text-muted-foreground">{t("form.email")}</Label>
-                <Input id="email" type="email" placeholder={t("form.placeholder.email")} required className="bg-background/50 border-border/50 focus-visible:ring-accent h-12" />
+                <Input id="email" name="email" type="email" placeholder={t("form.placeholder.email")} required className="bg-background/50 border-border/50 focus-visible:ring-accent h-12" />
               </div>
 
               <div className="space-y-2">
                 <Label htmlFor="company" className="text-muted-foreground">{t("form.company")}</Label>
                 <div className="relative">
                   <Building2 className="absolute left-3 top-3.5 size-5 text-muted-foreground" />
-                  <Input id="company" placeholder={t("form.placeholder.company")} className="pl-10 bg-background/50 border-border/50 focus-visible:ring-accent h-12" />
+                  <Input id="company" name="company" placeholder={t("form.placeholder.company")} className="pl-10 bg-background/50 border-border/50 focus-visible:ring-accent h-12" />
                 </div>
               </div>
 
@@ -111,6 +139,7 @@ export function ContactSection() {
                 <Label htmlFor="message" className="text-muted-foreground">{t("form.message")}</Label>
                 <Textarea 
                   id="message" 
+                  name="message" 
                   placeholder={t("form.placeholder.message")} 
                   required 
                   className="min-h-[150px] bg-background/50 border-border/50 focus-visible:ring-accent resize-none"
