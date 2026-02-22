@@ -1,0 +1,312 @@
+{
+  "Navbar": {
+    "services": "Dịch vụ",
+    "portfolio": "Dự án",
+    "pricing": "Bảng giá",
+    "testimonials": "Đánh giá",
+    "about": "Về chúng tôi",
+    "contact": "Tư vấn ngay"
+  },
+  "Hero": {
+    "title": "Kiến tạo Sản phẩm Số",
+    "titleHighlight": "Đột phá",
+    "subtitle": "Chúng tôi kỹ sư hóa các giải pháp web, mobile và AI hiệu năng cao, thiết kế riêng cho các doanh nghiệp khao khát đổi mới và dẫn đầu thị trường.",
+    "ctaPrimary": "Xem bảng giá",
+    "ctaSecondary": "Liên hệ ngay",
+    "trustedBy": "ĐỐI TÁC CỦA CÁC DOANH NGHIỆP HÀNG ĐẦU"
+  },
+  "Features": {
+    "rapidDeployment": {
+      "title": "Triển khai nhanh chóng",
+      "description": "Ra mắt nhanh hơn với kiến trúc mô-đun và quy trình CI/CD được thiết kế để mở rộng quy mô."
+    },
+    "aiIntegration": {
+      "title": "Tích hợp AI",
+      "description": "Nhúng các mô hình học máy tiên tiến trực tiếp vào logic kinh doanh của bạn."
+    },
+    "enterpriseSecurity": {
+      "title": "Bảo mật doanh nghiệp",
+      "description": "Mã hóa cấp ngân hàng và các tiêu chuẩn tuân thủ được xây dựng trong từng dòng code."
+    }
+  },
+  "Services": {
+    "title": "Giải pháp Kỹ thuật số Mở rộng",
+    "subtitle": "Chúng tôi biến những ý tưởng tham vọng thành hiện thực thông qua kỹ thuật hàng đầu và thiết kế xuất sắc.",
+    "webDesign": {
+      "title": "Thiết kế Website",
+      "description": "UI/UX nhập vai nắm bắt bản sắc thương hiệu và chuyển đổi khách truy cập thành khách hàng trung thành."
+    },
+    "webDev": {
+      "title": "Phát triển Web App",
+      "description": "Nền tảng SaaS mạnh mẽ, có khả năng mở rộng được thiết kế cho tốc độ, độ tin cậy và sự tăng trưởng liền mạch."
+    },
+    "mobileDev": {
+      "title": "Phát triển Mobile App",
+      "description": "Ứng dụng di động bản địa và đa nền tảng hiệu suất cao cho iOS và Android mà người dùng yêu thích."
+    },
+    "aiSolutions": {
+      "title": "Giải pháp AI",
+      "description": "Tự động hóa thông minh, tích hợp LLM và các giải pháp chatbot tùy chỉnh cho sự tham gia của khách hàng 24/7."
+    },
+    "learnMore": "Tìm hiểu thêm",
+    "customSolution": {
+      "title": "Cần một Giải pháp Tùy chỉnh?",
+      "description": "Đội ngũ chuyên gia của chúng tôi sẵn sàng giải quyết các thách thức phức tạp nhất của bạn bằng kỹ thuật phần mềm riêng biệt.",
+      "cta": "Tư vấn với chuyên gia"
+    }
+  },
+  "TechStack": {
+    "title": "Công nghệ của chúng tôi",
+    "description": "Chúng tôi lựa chọn tỉ mỉ các công nghệ dựa trên hiệu suất, bảo mật và khả năng mở rộng lâu dài.",
+    "quote": "Chúng tôi ưu tiên các framework hiện đại vì hệ sinh thái sôi động của chúng, đảm bảo sản phẩm của bạn không bao giờ được xây dựng trên nền tảng lỗi thời."
+  },
+  "LatestProjects": {
+    "title": "Dự án mới nhất",
+    "viewAll": "Xem tất cả dự án",
+    "categories": {
+      "fintech": "Bảng điều khiển Fintech",
+      "data": "Phân tích Big Data",
+      "security": "Nền tảng An ninh mạng",
+      "immersive": "Công nghệ nhập vai"
+    }
+  },
+  "FeaturedWork": {
+    "title": "Dự án nổi bật",
+    "subtitle": "Đi sâu vào những dự án có tác động lớn nhất của chúng tôi.",
+    "viewAll": "Xem tất cả dự án",
+    "projects": {
+      "nova": {
+        "title": "Trợ lý Tài chính Nova",
+        "description": "Tự động hóa theo dõi tài chính cá nhân bằng mô hình AI dự đoán giúp người dùng tiết kiệm thêm 15% hàng năm."
+      },
+      "vital": {
+        "title": "VitalTrack Pro",
+        "description": "Hệ thống theo dõi sinh trắc học thời gian thực cho iOS và Android với đồng bộ hóa đám mây bảo mật."
+      },
+      "eco": {
+        "title": "EcoCommerce Hub",
+        "description": "Một nền tảng thị trường bền vững được xây dựng bằng React và Node.js xử lý hơn 1 triệu giao dịch mỗi tháng."
+      }
+    }
+  },
+  "Portfolio": {
+    "title": "Được chế tác cho Hiệu suất.",
+    "titleHighlight": "Thiết kế cho Tác động.",
+    "subtitle": "Khám phá bộ sưu tập trải nghiệm kỹ thuật số có tỷ lệ chuyển đổi cao của chúng tôi. Từ nền tảng doanh nghiệp đến giao diện điều phối bởi AI.",
+    "categories": {
+      "banking": "Bảng điều khiển Ngân hàng Di động",
+      "analytics": "Nền tảng Trực quan hóa Dữ liệu",
+      "marketing": "Trang Đích Tiếp thị",
+      "ecommerce": "Xem sản phẩm Thương mại điện tử",
+      "web3": "Tích hợp Ví Web3",
+      "enterprise": "Cổng thông tin Doanh nghiệp"
+    }
+  },
+  "Metrics": {
+    "title": "Thúc đẩy tăng trưởng thông qua Dữ liệu & Thiết kế",
+    "subtitle": "Cách tiếp cận dựa trên dữ liệu của chúng tôi biến đổi doanh nghiệp. Chúng tôi tận dụng phân tích tiên tiến và nguyên tắc thiết kế hiện đại để mang lại thành công có thể đo lường được.",
+    "projects": "Dự án hoàn thành",
+    "satisfaction": "Khách hàng hài lòng",
+    "roi": "ROI trung bình",
+    "experience": "Năm kinh nghiệm",
+    "revenue": {
+      "title": "Lộ trình doanh thu",
+      "subtitle": "Tăng trưởng nhất quán theo từng quý"
+    },
+    "expertise": "Phân bổ chuyên môn",
+    "activeUsers": {
+      "title": "Người dùng hoạt động",
+      "subtitle": "Người dùng hoạt động hàng ngày trên các nền tảng"
+    }
+  },
+  "Testimonials": {
+    "title": "Được tin tưởng bởi những người đổi mới",
+    "subtitle": "Gia nhập hàng trăm công ty tiên phong xây dựng tương lai với các giải pháp AI và web có khả năng mở rộng của chúng tôi."
+  },
+  "FAQ": {
+    "title": "Mọi thứ bạn cần biết",
+    "subtitle": "Câu trả lời chi tiết cho những thắc mắc quan trọng nhất của bạn về quy trình, công nghệ và quan hệ đối tác của chúng tôi.",
+    "stillQuestions": {
+      "title": "Vẫn còn câu hỏi?",
+      "description": "Không tìm thấy câu trả lời bạn đang tìm kiếm? Hãy trò chuyện với đội ngũ thân thiện của chúng tôi.",
+      "cta": "Liên hệ ngay"
+    }
+  },
+  "Pricing": {
+    "title": "Chuyển đổi kinh doanh của bạn với HeliosTech",
+    "subtitle": "Giải pháp công nghệ có khả năng mở rộng dành riêng cho startup và doanh nghiệp. Chọn gói phù hợp với đà tăng trưởng của bạn.",
+    "mostPopular": "PHỔ BIẾN NHẤT",
+    "getStarted": "Bắt đầu ngay",
+    "custom": "Liên hệ",
+    "plans": {
+      "landing": {
+        "name": "Landing Page",
+        "description": "Hoàn hảo để xác thực ý tưởng và thu hút khách hàng tiềm năng.",
+        "features": [
+          "Trang đơn có tác động cao",
+          "Cấu trúc tối ưu hóa SEO",
+          "Thời gian tải siêu nhanh",
+          "Tương thích thiết bị di động"
+        ]
+      },
+      "corporate": {
+        "name": "Website Doanh nghiệp",
+        "description": "Các doanh nghiệp đã thành lập cần một sự hiện diện chuyên nghiệp.",
+        "features": [
+          "5-10 trang tùy chỉnh",
+          "Tích hợp CMS",
+          "Thiết lập Blog & Tin tức",
+          "Bảng điều khiển phân tích"
+        ]
+      },
+      "ecommerce": {
+        "name": "Thương mại điện tử",
+        "description": "Cửa hàng trực tuyến quy mô đầy đủ để thúc đẩy doanh số.",
+        "features": [
+          "Shopify / WooCommerce",
+          "Cổng thanh toán an toàn",
+          "Quản lý hàng tồn kho",
+          "Tài khoản người dùng & Lịch sử",
+          "Thiết lập Email Marketing"
+        ]
+      },
+      "mobile": {
+        "name": "Ứng dụng Di động",
+        "description": "Trải nghiệm bản địa cho iOS và Android.",
+        "features": [
+          "Bản địa iOS & Android",
+          "Thiết kế UI/UX tùy chỉnh",
+          "Tích hợp API phức tạp",
+          "Thông báo đẩy"
+        ]
+      },
+      "ai": {
+        "name": "AI Chatbot",
+        "description": "Tự động hóa thông minh cho hỗ trợ khách hàng.",
+        "features": [
+          "Tích hợp NLP nâng cao",
+          "Hỗ trợ tự động 24/7",
+          "Đào tạo dữ liệu tùy chỉnh",
+          "Phân tích & Nhật ký"
+        ]
+      }
+    }
+  },
+  "About": {
+    "title": "Kết nối trực giác con người với",
+    "titleHighlight": "Trí tuệ Nhân tạo.",
+    "subtitle": "Tại HeliosTech, chúng tôi tin rằng tương lai không chỉ là về code—đó là về sự kết nối. Chúng tôi xây dựng các hệ sinh thái kỹ thuật số mạnh mẽ, có khả năng mở rộng và vốn mang tính lấy con người làm trung tâm.",
+    "stats": {
+      "projects": "Dự án đã ra mắt",
+      "projectsValue": "150+",
+      "retention": "Giữ chân khách hàng",
+      "retentionValue": "98%"
+    },
+    "team": {
+      "roles": {
+        "cto": "CTO",
+        "leadDesign": "Trưởng nhóm Thiết kế",
+        "aiLead": "Trưởng nhóm AI",
+        "strategy": "Chiến lược",
+        "devops": "DevOps"
+      },
+      "joinUs": "Gia nhập",
+      "hiring": "Tuyển dụng"
+    },
+    "values": {
+      "innovation": {
+        "title": "Ưu tiên Đổi mới",
+        "description": "Vượt qua các giới hạn với công nghệ tiên tiến."
+      },
+      "humanCentric": {
+        "title": "Lấy Con người làm trung tâm",
+        "description": "Thiết kế cho con người thật, không chỉ là người dùng."
+      },
+      "transparency": {
+        "title": "Quy trình Minh bạch",
+        "description": "Giao tiếp rõ ràng tại mọi cột mốc."
+      }
+    }
+  },
+  "Contact": {
+    "title": "Sẵn sàng",
+    "titleHighlight": "mở rộng?",
+    "subtitle": "Hãy cho chúng tôi biết về dự án, tiến độ và mục tiêu của bạn. Đội ngũ kiến trúc của chúng tôi sẽ phản hồi trong vòng 24 giờ với đánh giá sơ bộ.",
+    "info": {
+      "email": {
+        "title": "Email",
+        "value": "thai.hx04@gmail.com"
+      },
+      "phone": {
+        "title": "Điện thoại",
+        "value": "+84399549318"
+      },
+      "visit": {
+        "title": "Địa chỉ",
+        "value": "Nam Từ Liêm, Hà Nội, Việt Nam"
+      }
+    },
+    "form": {
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Email công việc",
+      "company": "Tên công ty",
+      "message": "Chi tiết dự án",
+      "placeholder": {
+        "firstName": "Nhập tên...",
+        "lastName": "Nhập họ...",
+        "email": "example@company.com",
+        "company": "Công ty của bạn",
+        "message": "Hãy cho chúng tôi biết về mục tiêu, công nghệ và lộ trình của bạn..."
+      },
+      "submit": "Gửi tin nhắn",
+      "sending": "Đang gửi...",
+      "success": "Đã nhận tin nhắn!"
+    }
+  },
+  "Footer": {
+    "brand": "HeliosTech",
+    "tagline": "Biến những ý tưởng tham vọng thành hiện thực thông qua kỹ thuật hàng đầu và thiết kế xuất sắc.",
+    "socials": {
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "sections": {
+      "services": "Dịch vụ",
+      "company": "Công ty",
+      "contact": "Liên hệ"
+    },
+    "links": {
+      "webDesign": "Thiết kế Website",
+      "webDev": "Phát triển Web App",
+      "mobileDev": "Phát triển Mobile App",
+      "aiSolutions": "Giải pháp AI",
+      "cloud": "Kiến trúc Cloud",
+      "about": "Về chúng tôi",
+      "portfolio": "Dự án",
+      "pricing": "Bảng giá",
+      "careers": "Tuyển dụng",
+      "contact": "Liên hệ",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ"
+    },
+    "contactInfo": {
+      "email": "thai.hx04@gmail.com",
+      "address": "Nam Tu Liem, Hanoi, Vietnam"
+    },
+    "rights": "© 2024 HeliosTech Solutions. Bảo lưu mọi quyền."
+  },
+  "Chatbot": {
+    "header": "Helios AI Assistant",
+    "minimized": "(thu nhỏ)",
+    "welcome": "Xin chào! Tôi là Helios AI. Bạn cần tư vấn về dịch vụ web, mobile hay AI của HeliosTech không?",
+    "pricingReply": "Gói dịch vụ của HeliosTech bắt đầu từ $1,499 cho Landing Page. Gói Enterprise được báo giá riêng theo yêu cầu. Bạn có thể xem chi tiết tại mục Bảng giá phía trên.",
+    "aiReply": "Chúng tôi chuyên tích hợp LLM riêng tư, bảo mật và dữ liệu dự đoán vào hệ thống hiện có để tự động hóa quy trình doanh nghiệp.",
+    "webReply": "HeliosTech thiết kế và phát triển website từ Landing Page đến hệ thống SaaS phức tạp, với công nghệ hiện đại như Next.js, React và Node.js.",
+    "mobileReply": "Chúng tôi phát triển ứng dụng mobile iOS & Android hiệu năng cao bằng React Native và Flutter, tích hợp đầy đủ backend và cloud.",
+    "defaultReply": "Tôi đã ghi nhận yêu cầu của bạn và sẽ chuyển đến đội ngũ kỹ thuật của chúng tôi. Bạn có thể điền vào form liên hệ để được phản hồi sớm nhất!",
+    "inputPlaceholder": "Nhập câu hỏi...",
+    "today": "Hôm nay"
+  }
+}

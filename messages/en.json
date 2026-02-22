@@ -1,0 +1,312 @@
+{
+  "Navbar": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "about": "About",
+    "contact": "Contact Us"
+  },
+  "Hero": {
+    "title": "Build Digital Products",
+    "titleHighlight": "That Scale",
+    "subtitle": "We engineer high-performance web, mobile, and AI solutions tailored for modern businesses ready to innovate and dominate their market.",
+    "ctaPrimary": "View Pricing",
+    "ctaSecondary": "Contact Us",
+    "trustedBy": "TRUSTED BY FORWARD-THINKING COMPANIES"
+  },
+  "Features": {
+    "rapidDeployment": {
+      "title": "Rapid Deployment",
+      "description": "Launch faster with our modular architecture and CI/CD pipelines designed for scalability."
+    },
+    "aiIntegration": {
+      "title": "AI Integration",
+      "description": "Embed state-of-the-art machine learning models directly into your business logic."
+    },
+    "enterpriseSecurity": {
+      "title": "Enterprise Security",
+      "description": "Bank-grade encryption and compliance standards built into every line of code."
+    }
+  },
+  "Services": {
+    "title": "Scalable Digital Solutions",
+    "subtitle": "We transform ambitious ideas into digital reality through cutting-edge engineering and design excellence.",
+    "webDesign": {
+      "title": "Website Design",
+      "description": "Immersive UI/UX that captures brand essence and converts visitors into loyal customers through intuitive flows."
+    },
+    "webDev": {
+      "title": "Web App Development",
+      "description": "Robust, scalable SaaS platforms engineered for speed, reliability, and seamless growth using modern frameworks."
+    },
+    "mobileDev": {
+      "title": "Mobile App Dev",
+      "description": "High-performance native and cross-platform mobile applications for iOS and Android that users love."
+    },
+    "aiSolutions": {
+      "title": "AI Solutions",
+      "description": "Intelligent automation, LLM integration, and custom chatbot solutions for 24/7 customer engagement."
+    },
+    "learnMore": "Learn More",
+    "customSolution": {
+      "title": "Need a Custom Solution?",
+      "description": "Our team of experts is ready to tackle your most complex challenges with bespoke software engineering.",
+      "cta": "Consult With Our Experts"
+    }
+  },
+  "TechStack": {
+    "title": "Our Tech Stack",
+    "description": "We meticulously select our technologies based on performance, security, and long-term scalability. No bloat, just power.",
+    "quote": "We prioritize modern frameworks for their vibrant ecosystems, ensuring your product is never built on obsolete foundations."
+  },
+  "LatestProjects": {
+    "title": "Latest Projects",
+    "viewAll": "View all projects",
+    "categories": {
+      "fintech": "Fintech Dashboard",
+      "data": "Big Data Analytics",
+      "security": "Cybersecurity Platform",
+      "immersive": "Immersive Tech"
+    }
+  },
+  "FeaturedWork": {
+    "title": "Featured Work",
+    "subtitle": "Deep dives into our most impactful projects.",
+    "viewAll": "View all projects",
+    "projects": {
+      "nova": {
+        "title": "Nova Finance Assistant",
+        "description": "Automating personal finance tracking using predictive AI models to save users 15% more annually."
+      },
+      "vital": {
+        "title": "VitalTrack Pro",
+        "description": "Real-time biometric tracking system for iOS and Android with secure cloud synchronization."
+      },
+      "eco": {
+        "title": "EcoCommerce Hub",
+        "description": "A sustainable marketplace platform built with React and Node.js handling 1M+ monthly transactions."
+      }
+    }
+  },
+  "Portfolio": {
+    "title": "Crafted for Performance.",
+    "titleHighlight": "Designed for Impact.",
+    "subtitle": "Explore our gallery of high-conversion digital experiences. From corporate platforms to AI-driven interfaces, every pixel is purposeful.",
+    "categories": {
+      "banking": "Mobile Banking Dashboard",
+      "analytics": "Data Visualization Platform",
+      "marketing": "Marketing Landing Page",
+      "ecommerce": "E-commerce Product View",
+      "web3": "Web3 Wallet Integration",
+      "enterprise": "Enterprise Portal"
+    }
+  },
+  "Metrics": {
+    "title": "Accelerating Growth through Data & Design",
+    "subtitle": "Our data-driven approach transforms businesses. We leverage cutting-edge analytics and modern design principles to deliver measurable success.",
+    "projects": "Projects Delivered",
+    "satisfaction": "Client Satisfaction",
+    "roi": "Avg ROI",
+    "experience": "Years XP",
+    "revenue": {
+      "title": "Revenue Trajectory",
+      "subtitle": "Consistent quarter-over-quarter growth"
+    },
+    "expertise": "Expertise Distribution",
+    "activeUsers": {
+      "title": "Active Users",
+      "subtitle": "Daily active users across platforms"
+    }
+  },
+  "Testimonials": {
+    "title": "Trusted by Innovators",
+    "subtitle": "Join hundreds of forward-thinking companies building the future with our scalable AI and web solutions."
+  },
+  "FAQ": {
+    "title": "Everything you need to know",
+    "subtitle": "Detailed answers to your most pressing questions about our process, technology, and partnerships.",
+    "stillQuestions": {
+      "title": "Still have questions?",
+      "description": "Can't find the answer you're looking for? Please chat to our friendly team.",
+      "cta": "Get in touch"
+    }
+  },
+  "Pricing": {
+    "title": "Transform Your Business with HeliosTech",
+    "subtitle": "Scalable technology solutions tailored for startups and enterprises. Choose a plan that fits your growth.",
+    "mostPopular": "MOST POPULAR",
+    "getStarted": "Get Started",
+    "custom": "Custom",
+    "plans": {
+      "landing": {
+        "name": "Landing Page",
+        "description": "Perfect for validating ideas and lead generation.",
+        "features": [
+          "Single High-Impact Page",
+          "SEO Optimized Structure",
+          "Ultra-Fast Load Time",
+          "Mobile Responsive"
+        ]
+      },
+      "corporate": {
+        "name": "Corporate",
+        "description": "Established businesses needing a professional presence.",
+        "features": [
+          "5-10 Custom Pages",
+          "CMS Integration",
+          "Blog & News Setup",
+          "Analytics Dashboard"
+        ]
+      },
+      "ecommerce": {
+        "name": "E-commerce",
+        "description": "Full-scale online stores to drive sales.",
+        "features": [
+          "Shopify / WooCommerce",
+          "Secure Payment Gateway",
+          "Inventory Management",
+          "User Accounts & History",
+          "Email Marketing Setup"
+        ]
+      },
+      "mobile": {
+        "name": "Mobile App",
+        "description": "Native experiences for iOS and Android.",
+        "features": [
+          "iOS & Android Native",
+          "Custom UI/UX Design",
+          "Complex API Integration",
+          "Push Notifications"
+        ]
+      },
+      "ai": {
+        "name": "AI Chatbot",
+        "description": "Smart automation for customer support.",
+        "features": [
+          "Advanced NLP Integration",
+          "24/7 Automated Support",
+          "Custom Data Training",
+          "Analytics & Logs"
+        ]
+      }
+    }
+  },
+  "About": {
+    "title": "Bridging human intuition with",
+    "titleHighlight": "Artificial Intelligence.",
+    "subtitle": "At HeliosTech, we believe the future isn't just about code—it's about connection. We build digital ecosystems that are powerful, scalable, and inherently human-centric.",
+    "stats": {
+      "projects": "Projects Launched",
+      "projectsValue": "150+",
+      "retention": "Client Retention",
+      "retentionValue": "98%"
+    },
+    "team": {
+      "roles": {
+        "cto": "CTO",
+        "leadDesign": "Lead Design",
+        "aiLead": "AI Lead",
+        "strategy": "Strategy",
+        "devops": "DevOps"
+      },
+      "joinUs": "Join Us",
+      "hiring": "Hiring"
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovation First",
+        "description": "Pushing boundaries with cutting-edge tech."
+      },
+      "humanCentric": {
+        "title": "Human-Centric",
+        "description": "Designing for real people, not just users."
+      },
+      "transparency": {
+        "title": "Transparent Process",
+        "description": "Clear communication at every milestone."
+      }
+    }
+  },
+  "Contact": {
+    "title": "Ready to",
+    "titleHighlight": "scale?",
+    "subtitle": "Tell us about your project, timeline, and goals. Our architecture team will respond within 24 hours with a preliminary assessment.",
+    "info": {
+      "email": {
+        "title": "Email Us",
+        "value": "thai.hx04@gmail.com"
+      },
+      "phone": {
+        "title": "Call Us",
+        "value": "+84399549318"
+      },
+      "visit": {
+        "title": "Visit Us",
+        "value": "Nam Tu Liem, Hanoi, Vietnam"
+      }
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Work Email",
+      "company": "Company Name",
+      "message": "Project Details",
+      "placeholder": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "company": "Acme Corp",
+        "message": "Tell us about your goals, stack, and timeline..."
+      },
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message Received!"
+    }
+  },
+  "Footer": {
+    "brand": "HeliosTech",
+    "tagline": "Transforming ambitious ideas into digital reality through cutting-edge engineering and design excellence.",
+    "socials": {
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "sections": {
+      "services": "Services",
+      "company": "Company",
+      "contact": "Contact"
+    },
+    "links": {
+      "webDesign": "Website Design",
+      "webDev": "Web App Development",
+      "mobileDev": "Mobile App Dev",
+      "aiSolutions": "AI Solutions",
+      "cloud": "Cloud Architecture",
+      "about": "About Us",
+      "portfolio": "Portfolio",
+      "pricing": "Pricing",
+      "careers": "Careers",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "contactInfo": {
+      "email": "thai.hx04@gmail.com",
+      "address": "Nam Tu Liem, Hanoi, Vietnam"
+    },
+    "rights": "© 2024 HeliosTech Solutions. All rights reserved."
+  },
+  "Chatbot": {
+    "header": "Helios AI Assistant",
+    "minimized": "(minimized)",
+    "welcome": "Welcome to HeliosTech. How can I assist with your web apps or cloud deployments today?",
+    "pricingReply": "Our pricing starts at $1,499 for landing pages. Enterprise products are custom quoted. You can view full details in our pricing section above.",
+    "aiReply": "We specialize in integrating secure, private LLMs and predictive datasets into existing platforms to automate workflows.",
+    "webReply": "HeliosTech designs and develops websites from landing pages to complex SaaS systems with modern frameworks like Next.js, React and Node.js.",
+    "mobileReply": "We develop high-performance iOS & Android mobile apps using React Native and Flutter, with full backend and cloud integration.",
+    "defaultReply": "I'm passing this request to our engineering team. You can also fill out the contact form for a faster response.",
+    "inputPlaceholder": "Ask about our services...",
+    "today": "Today"
+  }
+}
